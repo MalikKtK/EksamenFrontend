@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Boat Management</title>
+    <script src="../../js/navigation/navigation-boat.js"></script>
+    <link rel="stylesheet" href="../../css/navigation.css">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+<div id="nav-boat-placeholder"></div>
+
+<h1>Boat Management</h1>
+
+<form id="create-boat-form">
+    <label for="name">Boat Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <br>
+
+    <label for="boat-type">Boat Type:</label>
+    <select id="boat-type" name="boat-type" required>
+    </select>
+    <br>
+
+    <button type="submit">Create Boat</button>
+</form>
+
+<script src="../../js/boat/post-boat.js"></script>
+</body>
+</html>
